@@ -1,0 +1,149 @@
+.unique-job {
+  width: 100%;
+  background-color: #272727;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 60px;
+}
+.similar-bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  justify-content: ;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.description-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.external-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #6366f1;
+}
+.jobTitle {
+  font-size: 25px;
+}
+.job-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.skill-item {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  margin-bottom: 80px;
+}
+.company {
+  display: flex;
+}
+.skills {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.skill-logo {
+  margin-right: 20px;
+}
+.skill-name {
+  font-weight: 500;
+  font-size: 20px;
+}
+.company-description {
+  width: 60%;
+  padding-right: 20px;
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.company-logo {
+  width: 40%;
+  height: 300px;
+}
+.similar-job-item {
+  background-color: #272727;
+  width: 350px;
+  border-radius: 10px;
+  padding: 25px 35px;
+  margin: 0;
+  color: #fff;
+}
+.similar-card-container {
+  width: 80%;
+}
+.similar-jobs-list {
+  list-style-type: none;
+  width: 100%;
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.similar-job-heading {
+  color: #fff;
+}
+@media (max-width: 1400px) {
+  .similar-job-item {
+    width: 300px;
+  }
+
+  .job-logo {
+    width: 60px;
+    height: 60px;
+  }
+  .job-title {
+    font-size: 17px;
+  }
+  .similar-description {
+    font-size: 15px;
+  }
+  .skill-item {
+    width: 200px;
+    margin: 20px;
+  }
+  .similar-jobs-list {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 900px) {
+  .similar-jobs-list {
+    justify-content: center;
+    gap: 30px;
+  }
+  .skill-item {
+    width: 160px;
+    margin: 20px;
+  }
+  .company-description {
+    width: 50%;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .company-logo {
+    width: 50%;
+    height: 350px;
+  }
+  .similar-job-item {
+    width: 260px;
+    padding: 20px;
+  }
+  .job-title {
+    font-size: 15px;
+  }
+  .similar-description {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
